@@ -1,1 +1,1 @@
-A collection of DSA challenges done
+Data structures and algorithms solved.
