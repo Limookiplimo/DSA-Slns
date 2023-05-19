@@ -6,16 +6,16 @@
 #Solution
 
 def val_anag(s,t):
-    if len(s) != len(t):
-        return False
-    countS,countT = {},{}
-    for i in range(len(s)):
-        countS[[i]] = 1 + countS.get(s[i],0)
-        countT[[i]] = 1 + countT.get(t[i],0)
-    for num in countS:
-        if countS[num] != countT(num,0):
+        if len(s) != len(t):
             return False
-    return True
+        countS,countT = {},{}
+        for i in range(len(s)):
+            countS[s[i]] = 1 + countS.get(s[i],0)
+            countT[t[i]] = 1 + countT.get(t[i],0)
+        for num in countS:
+            if countS[num] != countT.get(num,0):
+                return False
+        return True
 
 '''
     The time complexity is O(n) where n is the lenght of string. The space complexity is O(k) where k is the number of unique string characters.
