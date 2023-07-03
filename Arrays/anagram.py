@@ -18,5 +18,5 @@ def val_anag(s,t):
         return True
 
 '''
-    The time complexity is O(n) where n is the lenght of string. The space complexity is O(k) where k is the number of unique string characters.
+    The time complexity is O(n) where n is the length of string. The space complexity is O(k) where k is the number of unique string characters.
 '''
