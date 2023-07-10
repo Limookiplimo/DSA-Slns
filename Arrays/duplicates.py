@@ -16,5 +16,5 @@ class Solution:
     
 '''
     Time complexity is O(1) since sets have a contant-time lookup.
-    Incase there are no duplicates (our worset case scenario), the space complexity is O(n).
+    Incase there are no duplicates (worst case scenario), the space complexity is O(n).
 '''
