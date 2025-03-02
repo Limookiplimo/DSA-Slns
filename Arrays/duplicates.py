@@ -6,7 +6,7 @@
 # Solution:
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums: list[int]) -> bool:
         elems = set()
         for elem in nums:
             if elem in elems:
